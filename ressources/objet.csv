@@ -1,0 +1,38 @@
+nom;lieu;text;secret
+Billy;chambre;"Trop top non ? Aller ta Tante nous attend en bas, utilise le sort cd suivi du lieu pour te téléporter directement, je te suis ! Et n'oublie pas de dire au revoir a ta Tante avec le sort cat avant de partir";0
+ordinateur;chambre;c'est votre ordinateur, mais dans ce monde il ne sert pas à grand chose ...;0
+Tante_May;salon;"Bonjour mon chéri, comment vas tu ? Pret pour l'école ? Ne soit pas en retard. Suis Billy, il connais le chemin.";0
+TV;salon; La tv de tante May, elle montre un reportage sur les escargots de bourgogne;0
+carnet;chambre_Billy;un carnet qui parle du sort sudo mais vous ne comprennez pas tout;1
+Roger;Neumanncity;" la magie c'est trop bien, avec le sort pwd vous pouvez voir le chemin directe depuis votre chmabre !";0
+Mere_Billy;maison_Billy;"Aller depeche toi d'aller a l'école! pour revenir n arrière utilise le sort cd ..";0
+panneau;route_001; ce panneau indique la direction de l'école et de la ville de Turingland;0
+eleves;ecole_NSI;"Où est la salle de duplication ?"  "Elle est juste après les grands escalier, tu ne peux pas la louper";0
+Garde;route_001;"Dépeche toi d'aller a l'école, tu vas être en retard";0
+Billy;route_001;"Tu ne penses pas qu'il faut ce dépécher plutot que de papoter ? ";0
+Billy;salle_de_duplication;"aller utilisons le sort cp ! cp statue statue1  OUI j'ai réussi ! A toi !";0
+statue;salle_de_duplication;une statue d'entrainement pour le sort cp;4
+armoire;salle_de_duplication;une armoire d'entrainement pour le sort cp;4
+balle;salle_de_duplication;une boule d'entrainement pour le sort cp;4
+prof;salle_de_duplication; "utiliser le sort sur les 3 objets de la salle pour obtenir statue1, armoire1, boule1 : cp ancien_objet, nom_nouveau_objet";0
+statue1;salle_de_lévitation; c'est l'objet que vous avez creez lors du cours précédent;4
+armoire1;salle_de_lévitation; c'est l'objet que vous avez creez lors du cours précédent;4
+balle1;salle_de_lévitation; c'est l'objet que vous avez creez lors du cours précédent;4
+prof2;salle_de_lévitation; "utiliser le sort sur les 3 objets de la salle pour les mettres dans le coffre : mv objet, lieu";0
+eleve1;salle_commune; "j'adore cette école, il y a toujours quelque chose à apprendre et des secret à découvrir !" ;0
+Limule;salle_commune; "Je ne sais pas où je vais faire mon stage, mais j'ai hâte d'y être !" ;0
+prof;salle_commune; "Vous voir aussi énergique me rappelle ma jeunesse ... c'est vraiment fantastique " ;0
+forgeron;forge; "Peux tu me ranger le bois dans le coffre, s'il te plait ?";0
+planche1;forge;un morceau de bois;4
+planche2;forge;un morceau de bois;4
+citadin1;centre_ville;"j'adore cette ville, cette amabiance, la mer ... Tu aimes aussi ?";0
+citadin2;centre_ville; "A tient un élève de l'école, tu es en stage ?";0
+Garde;Turingland; "Bienvenue dans la ville de Turingland, s'il y a le moindre problème, va voir un garde.";0
+Garde;centre_ville; "j'ai vraiment soif ...";0
+libraire;librairie; "Bonjour, que puis-je pour vous ?";0
+livre_des_droits;archives_secrete; Un livre sur la gestion des droit de ce monde, mais vous avez du mal à comprendre ce qui y est décrit;1
+livre_sudo;archives_secrete; Billy : "non ce n'est pas ce livre !";1
+livre_grep;archives_secrete; Billy : "non ce n'est pas ce livre !";1
+prof3;salle_de_destruction;"aller détruiser les 2 caisses et le coffre devant vous";0
+caisse1;salle_de_destruction;une caisse a détruire;4
+caisse2;salle_de_destruction;une caisse a détruire;4

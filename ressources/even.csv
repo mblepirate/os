@@ -1,0 +1,31 @@
+commande;id
+ls;0
+cat Billy;1
+cd salon;2
+cd Neumanncity;3
+cat Mere_Billy;4
+cat Roger;5
+cd maison_Billy;6
+cd ..;7
+cd ecole_NSI;8
+cd salle_de_duplication;9
+cat prof;10
+cd salle_de_lévitation;11
+cat prof2;12
+cd salle_commune;13
+cd forge;14
+cat forgeron;15
+touch carnet_client;16
+touch carnet_commande;17
+cd salon;18
+cd bibliothèque;19
+cd archives_secrete;20
+cat livre_des_droits;21
+cat livre_sudo;22
+cd grand_escalier;23
+cd salle_de_destruction;24
+cat prof3;25
+cd terrasse;26
+cd zone_interdite;27
+sudo rm -r backdoor_de_l'infinie;28
+rm Billy;29

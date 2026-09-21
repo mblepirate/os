@@ -1,0 +1,31 @@
+id;nom;text;secret
+0;chambre;c'est votre chambre;0
+1;salon;c'est votre salon;0
+2;Neumanncity; votre nouvelle ville, elle est petite mais plutot agréable;0
+3;maison_Billy; La maison de votre nouveau meilleur ami, elle est très ressemblante à la votre;0
+4;chambre_Billy; La chambre de votre meilleur ami, vous pouvez voir de grand tas de papier avec plein de sort ecrit dessus;1
+5;bibliothèque; Une grande bibliothèque avec beaucoup de livre sur ce monde et les sortilége puissant ;0
+6;archives_secrete; Une archive secrete contenant les sort les plus puissant du monde ;1
+7;epicerie; l'épicerie de votre village;0
+8;route_001; Une route sympas mais sans plus ;0
+9;ecole_NSI; La grande ecole de sortilège dans ce monde, c'est une chance de pouvoir y rentré;0
+10;grand_escalier; Un grand escalier menant a plein de salle ;0
+11;salle_de_lévitation; Une salle de cours très spatieuse pour apprendre le sort de lévitation;2
+12;salle_de_duplication; Une salle de cours très spatieuse pour apprendre le sort de duplication ;0
+13;salle_de_destruction; Une salle de cours très spatieuse pour apprendre le sort de destruction ;2
+14;salle_sur_demande;  ;1
+15;foret;une grande foret qui semble sans fin ;0
+16;salle_commune; Grande salle où tout les élève ce retrouve lorsqu'il non pas cours ;0
+17;toilette; Ce sont les toilettes ... ;0
+18;terrasse; Un petit lieu pour ceux qu'il veulent prendre l'air tout en étant assis tranquillemnt ;0
+19;zone_interdite;Une zone qui est interdite pour les élèves;0
+20;tour_Billy; la tour du virus Billy, elle est immense;0
+21;backdoor_de_l'infinie; Un lieu de vide et de plein en simultané, un flux constant vient dans ce lieu, il faut le détruire mais comment ?;0
+22;route_010; Une route border de palmier et accompagner du bruit des vagues et des goélands;2
+23;coffre; un coffre pour ranger les objets;4
+24;Turingland;La porte de la ville, elle est immence;0
+25;centre_ville;le centre ville de Turingland, il arbore une grande fontaine et plein de boutique autour;0
+26;forge;La forge de la ville, elle est réputé pour être la meilleur de toute la région;0
+27;librairie;Une librairie qui propose énormement de livre sur les sorts;0
+28;coffre;Le coffre de la forge pour ranger le bois;4
+29;coffre;un coffre vide à détruire;4
