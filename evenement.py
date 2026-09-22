@@ -334,4 +334,3 @@ class evenement:
 
 # mettre les even dans la classe pour utilisation avec exec et dir de manière automatique
 # mieux gérer l'interet du return des evennement
-# print("FIN DEMO ! Vous pouvez vous ballader ...")

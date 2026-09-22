@@ -9,8 +9,8 @@ class questionnaire:
                     ["Quelle est la commande qui permet de voir tout les lieux et objets y compris les secret ?",["ls","-a"]],
                     ["Je veux creer une planche de même nom",["touch", "planche"]],
                     ["Je veux creer un carnet avec pour nom texte",["touch", "texte"]],
-                    ["Je veux copier une planche1 en planche2",["cp","planche1", "planche2"]],
-                    ["Je veux copier une planche1 en caisse",["cp","planche1", "caisse"]],
+                    ["Je veux dupliquer une planche1 en planche2",["cp","planche1", "planche2"]],
+                    ["Je veux dupliquer une planche1 en caisse",["cp","planche1", "caisse"]],
                     ["Je veux déplacer carnet dans le coffre",["mv","carnet", "coffre"]],
                     ["Je veux déplacer planche dans coffre",["mv","planche", "coffre"]],
                     ["Je veux détruire le carnet",["rm","carnet"]],
@@ -38,4 +38,4 @@ class questionnaire:
         tmp = 1
         for i in compteur:
             tmp = i * tmp
-        return str(tmp + ord(self.nom[0])+ord(self.nom[1]))
+        return str(tmp + ord(self.nom[0])*ord(self.nom[1]))
