@@ -79,26 +79,31 @@ class commande:
             print(perso.lieu.chemin())
 
     def mv(self, entre, perso, sudo):
-        okl = False
-        oko = False
-        for i in perso.lieu.objets:
-            if entre[1] == i.nom:
-                oko = True
-                for j in perso.lieu.enfants:
-                    if entre[2] == j.identite.nom:
-                        if (not i.secret in [0,1,2,3] and not j.secret in [0,1,2,3]) or sudo:
-                            perso.lieu.ajout_objet_enfant(i, j.identite.nom)
-                            perso.lieu.sup_objet(i.nom)
-                        else:
-                            print("Un grand pouvoir vous empeche d'interagir avec ceci")
-                        okl = True
-        if not oko:
-            print("l'objet n'est pas present")
-        elif not okl:
-            print("le lieu n'est pas accessible")
+        if len(entre) < 3:
+            print("mauvaise utilisation du sort")
+        else:
+            okl = False
+            oko = False
+            for i in perso.lieu.objets:
+                if entre[1] == i.nom:
+                    oko = True
+                    for j in perso.lieu.enfants:
+                        if entre[2] == j.identite.nom:
+                            if (not i.secret in [0,1,2,3] and not j.secret in [0,1,2,3]) or sudo:
+                                perso.lieu.ajout_objet_enfant(i, j.identite.nom)
+                                perso.lieu.sup_objet(i.nom)
+                            else:
+                                print("Un grand pouvoir vous empeche d'interagir avec ceci")
+                            okl = True
+            if not oko:
+                print("l'objet n'est pas present")
+            elif not okl:
+                print("le lieu n'est pas accessible")
         
     def cp(self, entre, perso, sudo):
-        if entre[1] == entre[2]:
+        if len(entre) < 3:
+            print("mauvaise utilisation du sort")
+        elif entre[1] == entre[2]:
             print("le nom de la copie est identique a l'objet de base")
         else:
             oko = False
@@ -123,7 +128,7 @@ class commande:
         if entre[1] == "-r" and len(entre) == 3:
             for i in perso.lieu.enfants:
                 if entre[2] == i.identite.nom:
-                    if not i.secret in [2,3] or sudo:
+                    if not i.secret in [0,1,2,3] or sudo:
                         perso.lieu.enfants.pop(cmp)
                     else:
                         print("Un grand pouvoir vous empeche d'interagir avec ceci")
@@ -135,7 +140,7 @@ class commande:
         elif len(entre) == 2:
             for i in perso.lieu.objets:
                 if entre[1] == i.nom:
-                    if not i.secret in [2,3] or sudo:
+                    if not i.secret in [0,1,2,3] or sudo:
                         perso.lieu.objets.pop(cmp)
                     else:
                         print("Un grand pouvoir vous empeche d'interagir avec ceci")

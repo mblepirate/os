@@ -108,7 +108,7 @@ class evenement:
         return False
 
     def even11(self, perso):
-        if "cp" in perso.commandes:
+        if "cp" in perso.commandes and perso.lieu.identite.nom == "grand_escalier":
             self.com.cd(["cd", "salle_de_lévitation"], perso, True)
             perso.lieu.secret = 0
             perso.commandes.remove("cd")

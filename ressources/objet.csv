@@ -14,7 +14,7 @@ Billy;salle_de_duplication;"aller utilisons le sort cp ! cp statue statue1  OUI 
 statue;salle_de_duplication;une statue d'entrainement pour le sort cp;4
 armoire;salle_de_duplication;une armoire d'entrainement pour le sort cp;4
 balle;salle_de_duplication;une boule d'entrainement pour le sort cp;4
-prof;salle_de_duplication; "utiliser le sort sur les 3 objets de la salle pour obtenir statue1, armoire1, boule1 : cp ancien_objet, nom_nouveau_objet";0
+prof;salle_de_duplication; "utiliser le sort sur les 3 objets de la salle pour obtenir statue1, armoire1, balle1 : cp ancien_objet, nom_nouveau_objet";0
 statue1;salle_de_lévitation; c'est l'objet que vous avez creez lors du cours précédent;4
 armoire1;salle_de_lévitation; c'est l'objet que vous avez creez lors du cours précédent;4
 balle1;salle_de_lévitation; c'est l'objet que vous avez creez lors du cours précédent;4

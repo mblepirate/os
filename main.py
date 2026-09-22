@@ -10,7 +10,7 @@ def main():
     print("Bienvenue",perso, ", tu es dans le monde du numérique et tu viens de découvrir tes pouvoirs d'informaticien. Un monde magique et immense s'ouvre à toi. Mais prend garde a l'innommable ...")
     print("Eh Oh", perso.nom, ", utilise le sort ls pour voir les choses interessante autour de toi !\n\n")
     lieux,even = chargement_principal()
-    perso.lieu = lieux[0]
+    perso.lieu = lieux[10]
 
     perso.maison = lieux[0]
     entre = None
