@@ -5,7 +5,7 @@ Tante_May;salon;"Bonjour mon chéri, comment vas tu ? Pret pour l'école ? Ne so
 TV;salon; La tv de tante May, elle montre un reportage sur les escargots de bourgogne;0
 carnet;chambre_Billy;un carnet qui parle du sort sudo mais vous ne comprennez pas tout;1
 Roger;Neumanncity;" la magie c'est trop bien, avec le sort pwd vous pouvez voir le chemin directe depuis votre chmabre !";0
-Mere_Billy;maison_Billy;"Aller depeche toi d'aller a l'école! pour revenir n arrière utilise le sort cd ..";0
+Mere_Billy;maison_Billy;"Aller depeche toi d'aller a l'école! pour revenir en arrière utilise le sort cd ..";0
 panneau;route_001; ce panneau indique la direction de l'école et de la ville de Turingland;0
 eleves;ecole_NSI;"Où est la salle de duplication ?"  "Elle est juste après les grands escalier, tu ne peux pas la louper";0
 Garde;route_001;"Dépeche toi d'aller a l'école, tu vas être en retard";0

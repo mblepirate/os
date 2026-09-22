@@ -17,6 +17,7 @@ def main():
     while entre != "exit":
         entre = input(">")
         if entre != "exit":
+            print("\n")
             if entre == "examen":
                 exam = questionnaire.questionnaire(perso)
                 print(exam.start())

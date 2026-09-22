@@ -71,12 +71,14 @@ class evenement:
     def even6(self, perso):
         self.com.cd(["cd", "maison_Billy"], perso, False)
         print("Mere_Billy : bienvenue, tu es un ami(e) de Billy non ? Viens discuter avec moi le temps que mon fils revienne !")
-        self.fonction[4] = self.defaut
+        self.fonction[6] = self.defaut
         return False
 
     def even7(self, perso):
         print("Billy : Aller, il faut ce dépécher! Je part devant, il faut prendre la route_001 pour l'école !")
-        return True
+        self.com.cd(["cd",".."],perso, False)
+        self.fonction[7] = self.defaut
+        return False
 
     def even8(self, perso):
         perso.lieu.sup_objet("Billy")
