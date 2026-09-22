@@ -22,7 +22,9 @@ class questionnaire:
                     ["Je veux parler avec Billy",["cat","Billy"]],
                 ]
         for i in range(10):
-            self.question.append(base[randint(0,len(base)-1)])
+            tmp = randint(0,len(base)-1)
+            self.question.append(base[tmp])
+            base.pop(tmp)
         
 
     def start(self):
@@ -31,9 +33,9 @@ class questionnaire:
             entre = input(self.question[i][0]+"\n")
             entre = entre.split(" ")
             if entre != self.question[i][1]:
-                compteur[i] = 0
+                compteur[i] = 1
         
         tmp = 1
         for i in compteur:
-            tmp *=i
-        return str(i + ord(self.nom[0])+ord(self.nom[1]))
+            tmp = i * tmp
+        return str(tmp + ord(self.nom[0])+ord(self.nom[1]))
